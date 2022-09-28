@@ -57,6 +57,6 @@ const numbers = [
   "24",
 ];
 
-const symbols = ["!", "#", "@", "&", "$", "*"];
+const symbols = ["!", "#", "@", "&", "$", "*", "%", "^"];
 
 export { alphabet, lowerCaseAlphabet, numbers, symbols };

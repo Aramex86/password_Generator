@@ -3,7 +3,7 @@ import style from "./input.module.css";
 interface IInput {
   labelText?: string;
   name?: string;
-  onChange?: (e: any) => void;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   checked?: boolean;
 }
 

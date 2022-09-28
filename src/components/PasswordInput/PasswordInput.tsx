@@ -16,8 +16,6 @@ export const PasswordInput = () => {
     }, 1000);
   };
 
-  console.log(copied);
-
   return (
     <div className={style.input}>
       <input

@@ -1,4 +1,4 @@
-import { useContext, useReducer } from "react";
+import { useReducer } from "react";
 import { GeneratoBox, PasswordInput } from "./components";
 import { Notification } from "./components/Notification/Notification";
 import style from "./css/container.module.css";

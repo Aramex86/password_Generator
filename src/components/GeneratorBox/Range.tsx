@@ -14,8 +14,8 @@ export const Range = () => {
   return (
     <div className={style.range}>
       <div className={style.title}>
-        <div>Character Length </div>
-        <div>{range}</div>
+        <div className={style.rangeText}>Character Length </div>
+        <div className={style.rangeNumber}>{range}</div>
       </div>
       <div className={style.inputRange}>
         <input
