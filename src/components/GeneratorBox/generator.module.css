@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.btn {
+  width: 90%;
+  background: #74f693;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btnDisable {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: not-allowed;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgb(136, 136, 136);
+}
+
+.range {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputRange {
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 25px;
+}
+
+.strength {
+  background: #000;
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.strength > div {
+  display: flex;
+  gap: 5px;
+}
+
+.scale {
+  width: 5px;
+  height: 18px;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.scaleActive {
+  width: 5px;
+  height: 18px;
+  border: 1px solid #fff;
+  background: yellow;
+}

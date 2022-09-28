@@ -1,0 +1,46 @@
+.notificationContainer {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background: #fff;
+  width: 300px;
+  padding: 25px 15px;
+  color: #000;
+  text-align: center;
+  translate: 110%;
+  transition: 1s;
+  display: flex;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.notificationShow {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background: #fff;
+  width: 300px;
+  padding: 25px 15px;
+  color: #000;
+  text-align: center;
+  translate: 0%;
+  transition: 1s;
+  display: flex;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.icon {
+  color: orangered;
+}
+
+.closeBtn {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #000;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
