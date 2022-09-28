@@ -21,9 +21,9 @@ export const Range = () => {
         <input
           type="range"
           onChange={handleChange}
+          value={range}
           min={0}
           max={10}
-          defaultValue={0}
         />
       </div>
     </div>

@@ -7,11 +7,13 @@
   padding: 25px 15px;
   color: #000;
   text-align: center;
-  translate: 110%;
   transition: 1s;
   display: flex;
   font-weight: 600;
   border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-100%);
 }
 
 .notificationShow {
@@ -28,6 +30,9 @@
   display: flex;
   font-weight: 600;
   border-radius: 5px;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .icon {

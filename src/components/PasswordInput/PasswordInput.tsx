@@ -19,7 +19,7 @@ export const PasswordInput = () => {
   return (
     <div className={style.input}>
       <input
-        className={style.password}
+        className={result ? style.hasVal : style.password}
         placeholder="A4!nTF!r5"
         defaultValue={result && result}
       />
