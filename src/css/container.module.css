@@ -12,9 +12,9 @@
     width: 23rem;
   }
 }
-@media screen and (width: 320px) {
+@media screen and (width: 375px) {
   .container {
-    width: 18rem;
+    width: 21rem;
   }
 }
 
