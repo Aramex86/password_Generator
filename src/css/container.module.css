@@ -7,17 +7,11 @@
   background-color: rgba(90, 89, 89, 0.426);
   margin-top: 50%;
 }
-@media screen and (width: 425px) {
+@media screen and (min-width: 300px) and (max-width: 420px) {
   .container {
-    width: 23rem;
+    width: 18rem;
   }
 }
-@media screen and (width: 375px) {
-  .container {
-    width: 21rem;
-  }
-}
-
 .divider {
   width: 100%;
   background: #000;

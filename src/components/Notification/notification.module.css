@@ -35,6 +35,12 @@
   transform: translateY(0);
 }
 
+@media screen and (min-width: 300px) and (max-width: 420px) {
+  .notificationShow {
+    width: 250px;
+  }
+}
+
 .icon {
   color: orangered;
 }
