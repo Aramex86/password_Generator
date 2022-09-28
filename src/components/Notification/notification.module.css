@@ -36,8 +36,13 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 420px) {
+  .notificationContainer {
+    right: 0;
+    width: 250px;
+  }
   .notificationShow {
     width: 250px;
+    right: 0;
   }
 }
 
