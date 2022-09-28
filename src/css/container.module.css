@@ -12,6 +12,11 @@
     width: 23rem;
   }
 }
+@media screen and (width: 320px) {
+  .container {
+    width: 18rem;
+  }
+}
 
 .divider {
   width: 100%;
